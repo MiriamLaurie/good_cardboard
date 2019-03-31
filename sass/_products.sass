@@ -1,0 +1,30 @@
+.products
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    padding-top: 20px
+    &-block
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 50%
+        margin-bottom: 50px
+        
+        &__img
+            margin-bottom: 30px
+            max-height: 271px
+        &__title
+            margin-bottom: 30px
+            text-align: center
+            font-weight: 700
+            
+        &__buttons
+            text-align: center   
+
+.button
+    &--transparent
+        background-color: transparent
+        color: $active-color
+        border: 1px solid #999999
+        &:hover
+            background-color: transparent
